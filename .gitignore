@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local cookies / post body files
+*.txt
+nstc_*_cookie.txt
+nstc_*_post_body.txt
