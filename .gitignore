@@ -1,8 +1,12 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+
+# Virtual environments
 .venv/
 venv/
+env/
 
 # Jupyter
 .ipynb_checkpoints/
@@ -17,6 +21,22 @@ venv/
 Thumbs.db
 
 # Local cookies / post body files
-*.txt
+*_cookie.txt
+*_post_body.txt
 nstc_*_cookie.txt
 nstc_*_post_body.txt
+
+# Local secrets
+.env
+.env.*
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Raw full data
+data/raw/*
+!data/raw/.gitkeep
+
+# Processed generated data
+data/processed/*
+!data/processed/.gitkeep
